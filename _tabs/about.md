@@ -1,12 +1,12 @@
 ---
 # the default layout is 'page'
+title: How Are You?
 icon: fas fa-info-circle
 order: 4
 ---
 
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
-# How are you?
 
 I am so happy you to be here, let me give you a brief introduction about myself. I was born in Asunción (Paraguay) on July 18th, 1989. I finished my bachelor degree in System Engineer in 2011.
 I started working since 2009 at ITC S.A., hired by my university proffesor, as Lenovo system support and one year later I was promoted as junior Oracle field Engineer, my principal tasks were to manage oracle system hardware from x86 to highend servers and storage systems, I was also responsible for suppport and troubleshooting linux/unix operating systems.
