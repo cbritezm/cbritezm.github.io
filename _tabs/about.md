@@ -47,7 +47,7 @@ I am Database Engineer and Oracle database related product engineer. I love so m
 | ------------- |:-------------:|:-----------:|
 | ![](/assets/img/oracle04.png)      | ![](/assets/img/oracle05.png)     | ![](/assets/img/oracle06.png) |
 | ![](/assets/img/oracle07.png)      | ![](/assets/img/oracle08.png)     | ![](/assets/img/oracle09.png) |
-| ![](/assets/img/ibm01.png)      | right baz     |             |
+| ![](/assets/img/ibm01.png)      |     |             |
 
 
  [Check My Public Credly Profile](https://www.credly.com/users/cbritezm).
