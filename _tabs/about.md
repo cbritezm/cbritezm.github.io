@@ -42,3 +42,9 @@ I am Database Engineer and Oracle database related product engineer. I love so m
 * Project Management
 
 ## My Badges
+|![](/assets/img/oracle01.jpg)|![](/assets/img/oracle02.jpg)| ![](/assets/img/oracle03.png) |
+|----------------|-------------------------------| |
+|![](/assets/img/oracle04.png)|![](/assets/img/oracle05.png)|![](/assets/img/oracle06.png)|
+|![](/assets/img/oracle07.png)|![](/assets/img/oracle08.png)|![](/assets/img/oracle09.png)|
+|![](/assets/img/ibm01.png) |
+ [Markdown Live Preview](https://markdownlivepreview.com/).
