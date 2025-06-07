@@ -5,5 +5,5 @@ order: 5
 ---
 
 <script>
-window.location.href = "https://cv.cbritezm.com";
+windows.open("https://cv.cbritezm.com","_blank");
 </script>
