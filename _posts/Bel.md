@@ -5,7 +5,7 @@
 ---tags: [jekyll, markdown, chirpy]
 ---author: Cristhian Britez
 ---description: "Primavera"
----pinned: true # Optional: to pin the post to the homepage
+---pinned: false # Optional: to pin the post to the homepage
 ---
 
 Sabias que hay estudios que indican que se necesitan 94 minutos para enamorarse?, 4 de miradas y 90 de una conversación transparente.  

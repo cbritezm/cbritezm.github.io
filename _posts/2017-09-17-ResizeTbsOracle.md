@@ -15,6 +15,7 @@ Let's start,
  First we need to get some information for the datafiles (size,path,bigfile,maxsize) from dba_tablespaces and dba_data_files and load into cursor.
 
 ```sql
+
 SQL>  select df.file_name AS df_file_name,tb.bigfile AS isbigfile,df.autoextensible AS df_file_autoextend,bytes AS df_file_size,df.maxbytes maxbytes FROM dba_data_files df,dba_tablespaces tb WHERE df.tablespace_name=:tb_name AND df.tablespace_name=tb.tablespace_name;
 
 DF_FILE_NAME                                    ISB DF_    DF_FILE_SIZE        MAXBYTES
@@ -34,7 +35,8 @@ MAX_DF_SIZE
 
 After the maxsize, we also are able to determine the minsize required to get x% free (for monitoring system an alert maybe launched for datafiles with less than 10% free
 
-```SQL
+```sql
+
 	SQL>  SELECT ((total*0.1)-free_space) k_needed  FROM (SELECT nvl(sum(bytes),0) total FROM dba_data_files WHERE tablespace_name=:tb_name GROUP BY tablespace_name)df,(SELECT CASE count(dba_fs.file_id)  WHEN 0 THEN (SELECT nvl(dba_df.user_bytes-dba_s.bytes,0) from (select sum(user_bytes) user_bytes from dba_data_files where tablespace_name=:tb_name group by tablespace_name)dba_df,(select sum(bytes) bytes from dba_segments where tablespace_name=:tb_name group by tablespace_name) dba_s) ELSE (SELECT nvl(sum(bytes),0) FROM dba_free_space WHERE tablespace_name=:tb_name GROUP BY tablespace_name) END AS free_space from dba_data_files dba_df full outer join dba_free_space dba_fs using(tablespace_name) where tablespace_name=:tb_name group by tablespace_name) ds;
 	K_NEEDED
 ---------------
@@ -44,7 +46,8 @@ After the maxsize, we also are able to determine the minsize required to get x% 
 
 Now, we can loop into the cursor and execute autoextend on, resize and create new datafile if needed. The complete code is this:
 
-```SQL
+```sql
+
 SET SERVEROUT on;
 set verify off;
 set lines 300;
@@ -204,7 +207,7 @@ end;
 /
 ```
 
-[Download this code or improve it](https://github.com/cbritezm/cbritezm/blob/master/resize_tablespace_plsql.sq)
+[Download this code or improve it](https://github.com/cbritezm/cbritezm/blob/master/resize_tablespace_plsql.sql)
 
 # How to implement?
 
