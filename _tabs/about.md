@@ -43,11 +43,13 @@ I am Database Engineer and Oracle database related product engineer. I love so m
 
 ## My Badges
 
-| ![](/assets/img/oracle01.jpg)  | ![](/assets/img/oracle02.jpg) | ![](/assets/img/oracle03.png) |
+| ![](/assets/img/DB23AIOCP.jpg)  | ![](/assets/img/MYSQLHWIMPOCA.jpg) | ![](/assets/img/OADBC25CP.jpg) |
 | ------------- |:-------------:|:-----------:|
-| ![](/assets/img/oracle04.png)      | ![](/assets/img/oracle05.png)     | ![](/assets/img/oracle06.png) |
-| ![](/assets/img/oracle07.png)      | ![](/assets/img/oracle08.png)     | ![](/assets/img/oracle09.png) |
-| ![](/assets/img/ibm01.png)      |     |             |
+| ![](/assets/img/OCDBM2024CP.jpg)  | ![](/assets/img/OCI25DCFAV2.jpg) | ![](/assets/img/OCI25FNDCFA.jpg) |
+| ![](/assets/img/OCI25FNDCFA.jpg)  | ![](/assets/img/ODBCS25CP.jpg) | ![](/assets/img/oracle01.jpg) |
+| ![](/assets/img/oracle02.jpg) | ![](/assets/img/oracle03.png) | ![](/assets/img/oracle04.png) |
+| ![](/assets/img/oracle05.png)     | ![](/assets/img/oracle06.png) | ![](/assets/img/oracle07.png) |
+| ![](/assets/img/oracle08.png)     | ![](/assets/img/oracle09.png) | ![](/assets/img/ibm01.png)      |
 
 
  [Check My Public Credly Profile](https://www.credly.com/users/cbritezm).
