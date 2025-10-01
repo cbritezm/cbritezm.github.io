@@ -108,7 +108,7 @@ ORA-00942: table or view does not exist
 
 Now it is time to recover the table renaming it and using an auxiliary location. The new table name will be emp_recvr. The script to be used is:
 
-```RMAN
+```rman
 
 connect target /
 RECOVER TABLE HR.EMPLOYEES_2 OF PLUGGABLE DATABASE HR_PDB
@@ -116,11 +116,12 @@ UNTIL TIME "TO_DATE('10/08/2018 22:27:00','dd/mm/yyyy hh24:mi:ss')"
 AUXILIARY DESTINATION '/u02/recover'
 DATAPUMP DESTINATION '/u02/recover'
 REMAP TABLE 'HR'.'EMPLOYEES_2':'EMP_RECVR';
+
 ```
 
 The RMAN session output is:
 
-```RMAN
+```rman
 
 [oracle@grid12c backups]$ rman @recover_table.rman
 
