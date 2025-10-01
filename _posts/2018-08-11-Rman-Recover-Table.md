@@ -57,7 +57,7 @@ RMAN> exit
 If you don't have configured sbt channel you will get this error from RMAN:
 RMAN-06034: at least 1 channel must be allocated to execute this command. Check docid: 2105325.1 Now, I will create and delete a table on hr schema:
 
-```SQL
+```sql
 
 SQL> create table employees_2 as select * from employees;
 Table created.
@@ -86,6 +86,7 @@ SQL> /
 SQL> /
 7704 rows created.
 SQL> commit;
+
 ```
 
 After creating the table I have executed a full backup of the database and archivelogs. Now I am going to delete the table from hr schema.
