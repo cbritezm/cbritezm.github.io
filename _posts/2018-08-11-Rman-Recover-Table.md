@@ -15,7 +15,7 @@ This procedure is as easy as telling RMAN to recover a table from database, it w
 
 To recover table from a media manager you have to configure your sbt channel with the default environment, allocating channel inside a run block is not supported when recovering tables. My current RMAN configuration is:
 
-```RMAN
+```sql
 
 [oracle@grid12c backups]$ rman target /
 
@@ -108,7 +108,7 @@ ORA-00942: table or view does not exist
 
 Now it is time to recover the table renaming it and using an auxiliary location. The new table name will be emp_recvr. The script to be used is:
 
-```rman
+```
 
 connect target /
 RECOVER TABLE HR.EMPLOYEES_2 OF PLUGGABLE DATABASE HR_PDB
@@ -121,7 +121,7 @@ REMAP TABLE 'HR'.'EMPLOYEES_2':'EMP_RECVR';
 
 The RMAN session output is:
 
-```rman
+```
 
 [oracle@grid12c backups]$ rman @recover_table.rman
 
