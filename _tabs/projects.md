@@ -21,9 +21,11 @@ order: 7
   </thead>
   <tbody>
     <tr>
-      <td rowspan="5" ><img src="/assets/img/oracle_vm.png" alt=""></td>
+      <td rowspan="5" ><img src="https://www.cbritezm.com/assets/img/oracle_vm.png" alt=""></td>
       <td><b>About</b></td>
-      <td style="text-align: left;">Design and implementation of Oracle VM x86 server on HP Servers for hosting oracle database and oracle JDEdward application. Two oracle vm servers and initially three vm's.</td>
+      <td style="text-align: left;"><p>Design and implementation of Oracle VM x86 server on HP Servers
+      for hosting oracle database and oracle JDEdward application.
+      Two oracle vm servers and initially three vm's.</p></td>
     </tr>
     <!-- Third row: Three separate columns -->
     <tr>
