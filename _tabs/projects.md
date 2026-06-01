@@ -21,7 +21,7 @@ order: 7
   </thead>
   <tbody>
     <tr>
-      <td rowspan="5" ><img src="/assets/img/oracle_vm.png"></td>
+      <td rowspan="5" ><img src="/assets/img/oracle_vm.png" alt=""></td>
       <td><b>About</b></td>
       <td style="text-align: left;">Design and implementation of Oracle VM x86 server on HP Servers for hosting oracle database and oracle JDEdward application. Two oracle vm servers and initially three vm's.</td>
     </tr>
@@ -53,7 +53,7 @@ order: 7
   </thead>
   <tbody>
     <tr>
-      <td rowspan="5" ><img src="/assets/img/oracle_database.png"></td>
+      <td rowspan="5" ><img src="/assets/img/oracle_database.png" alt=""></td>
       <td><b>About</b></td>
       <td style="text-align: left;"> Implementation of Oracle Ldom's in shared storage, with two T5-2 servers and IBM Storage. One virtual machine for database and another for Oracle Application Server. This configuration was a cheap active/standby high availability.</td>
     </tr>
