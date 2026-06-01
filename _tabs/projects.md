@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
-title: CheckOut My Projects?
-icon: fas fa-info-circle
+title: Projects?
+icon: fa-solid fa-laptop-code
 order: 7
 ---
 <!---
