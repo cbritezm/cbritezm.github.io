@@ -1,8 +1,8 @@
 ---
 # the default layout is 'page'
-title: Projects
-icon: fa-solid fa-laptop-code
-order: 7
+title: Presentations
+icon: fa-solid fa-person-chalkboard
+order: 8
 ---
 <!---
  > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
