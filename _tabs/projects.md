@@ -11,11 +11,12 @@ order: 7
 #### These are the projects on which I was working on these years
 
 
-##### (2025) **Banco Ueno** - www.ueno.com.py
+##### (2025) **Banco Ueno** - [www.ueno.com.py](https://www.ueno.com.py)
 ![](/assets/img/exadata_cloud.png)
 >**About:** Migrating and Upgrade of Oracle Database on source mixed version on x86 servers to Oracle Cloud Infraestructure Exadata Services and OCI Instances for non critical databases.
 Main production database was migrated and upgraded using physical standby. The database was converted to a multitenant environment.
 The main production services are running in Sao Paulo and the Disaster Recovery in Ashburn.
+Audit Vault and Database Firewall was also deployed and configured for collecting audit data from production databases and filtering connection through firewall.
 This was the biggest OCI implementation and migration in South America in Finantial Services Area.
 >
 >**Skills:** Oracle Exadata / Oracle Database/ Scripting / Cloud Control/ PlSQL
@@ -30,6 +31,7 @@ One ZDLRA Appliances were implemented for Production and Disaster Recovery in th
 >**Skills:** Oracle Exadata / Oracle ZDLRA / Oracle Database / Scripting / Cloud Control/ PlSQL
 >
 >**Company:** Excelsis S.A.
+
 ##### (2024) **Fintech** - [www.fintechinversiones.com.py](https://www.fintechinversiones.com.py)
 ![](/assets/img/oci.png)
 
@@ -74,6 +76,15 @@ As this was new infraestructure no migration was made but I was in charge of the
 >**About:** This project was for implementing HA services for the customer on prem MySQL database to OCI MySQL services.
 >
 >**Skills:** Oracle Mysql / Oracle OCI
+>
+>**Company:** Excelsis S.A.
+
+##### (2021) **SET** - [www.dnit.gov.py](https://www.dnit.gov.py)
+![](/assets/img/avdf.png)
+>**About:** Deploy and configure Oracle Audit Vault and Database Firewall.
+This project was for implementing audit vault with before/after updates using Oracle Golden Gate and generating XML files to be uploaded to AVDF Server. All the infraestructure was AIX on IBM POWER Machines.
+>
+>**Skills:** Oracle Exadata / Oracle Database/ Scripting / Oracle AVDF / Cloud Control / PlSQL
 >
 >**Company:** Excelsis S.A.
 
